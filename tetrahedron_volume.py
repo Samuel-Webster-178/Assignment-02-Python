@@ -16,7 +16,7 @@ def main():
     edge_length = int(input("Input edge length of tetrahedron in cm: "))
 
     # process
-    volume = edge_length**3 / (6 * math.sqrt(3))
+    volume = edge_length**3 / (6 * math.sqrt(2))
 
     # output
     print("The volume is {} cm³.".format(volume))
